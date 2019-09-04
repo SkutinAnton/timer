@@ -100,7 +100,7 @@ const styleSheet = `
     padding: 20px;
     justify-content: 'space-around';
     background-color: qlineargradient( x1:0 y1:0, x2:0 y2:1, stop:0 rgb(255, 161, 127), stop:1 rgb(0, 34, 62));
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
   }
   #time {
     display: 'flex';
