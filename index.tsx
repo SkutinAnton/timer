@@ -10,6 +10,7 @@ const App = () => {
   const [timeId, setTimeId] = useState();
   const [isTimerRun, setTimerRun] = useState(false);
 
+
   useEffect(() => {
     if (isTimerRun) {
       setTimeId(setInterval(() => {
